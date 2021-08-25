@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/keycap-statuses",
+      "handler": "keycap-status.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/keycap-statuses/count",
+      "handler": "keycap-status.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/keycap-statuses/:id",
+      "handler": "keycap-status.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/keycap-statuses",
+      "handler": "keycap-status.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/keycap-statuses/:id",
+      "handler": "keycap-status.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/keycap-statuses/:id",
+      "handler": "keycap-status.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
