@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "keycap_manufacturers",
   "info": {
-    "name": "keycap_manufacturers"
+    "name": "keycap_manufacturers",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -13,6 +14,13 @@
   "attributes": {
     "name": {
       "type": "string"
+    },
+    "keycaps": {
+      "via": "manufacturer",
+      "collection": "keycaps"
+    },
+    "lead": {
+      "type": "integer"
     }
   }
 }

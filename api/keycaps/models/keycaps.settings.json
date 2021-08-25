@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "keycaps",
   "info": {
-    "name": "keycaps"
+    "name": "keycaps",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -12,6 +13,34 @@
   "pluginOptions": {},
   "attributes": {
     "name": {
+      "type": "string"
+    },
+    "manufacturer": {
+      "via": "keycaps",
+      "model": "keycap-manufacturers"
+    },
+    "thumb": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "run_start": {
+      "type": "date"
+    },
+    "run_end": {
+      "type": "date"
+    },
+    "designer": {
+      "type": "string"
+    },
+    "slug": {
       "type": "string"
     }
   }
