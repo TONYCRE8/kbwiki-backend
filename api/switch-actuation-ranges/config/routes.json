@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/switch-actuation-ranges",
+      "handler": "switch-actuation-ranges.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/switch-actuation-ranges/count",
+      "handler": "switch-actuation-ranges.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/switch-actuation-ranges/:id",
+      "handler": "switch-actuation-ranges.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/switch-actuation-ranges",
+      "handler": "switch-actuation-ranges.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/switch-actuation-ranges/:id",
+      "handler": "switch-actuation-ranges.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/switch-actuation-ranges/:id",
+      "handler": "switch-actuation-ranges.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

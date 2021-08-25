@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "switch_actuation_ranges",
+  "info": {
+    "name": "switch_actuation_ranges",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}

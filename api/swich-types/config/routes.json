@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/swich-types",
+      "handler": "swich-types.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/swich-types/count",
+      "handler": "swich-types.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/swich-types/:id",
+      "handler": "swich-types.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/swich-types",
+      "handler": "swich-types.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/swich-types/:id",
+      "handler": "swich-types.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/swich-types/:id",
+      "handler": "swich-types.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/switch-manufacturers",
+      "handler": "switch-manufacturers.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/switch-manufacturers/count",
+      "handler": "switch-manufacturers.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/switch-manufacturers/:id",
+      "handler": "switch-manufacturers.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/switch-manufacturers",
+      "handler": "switch-manufacturers.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/switch-manufacturers/:id",
+      "handler": "switch-manufacturers.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/switch-manufacturers/:id",
+      "handler": "switch-manufacturers.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

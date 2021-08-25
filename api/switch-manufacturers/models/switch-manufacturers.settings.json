@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "switch_manufacturers",
+  "info": {
+    "name": "switch_manufacturers"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}

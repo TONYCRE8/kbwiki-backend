@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "swich_types",
+  "info": {
+    "name": "swich_types"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}

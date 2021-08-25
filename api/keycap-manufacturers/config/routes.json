@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/keycap-manufacturers",
+      "handler": "keycap-manufacturers.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/keycap-manufacturers/count",
+      "handler": "keycap-manufacturers.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/keycap-manufacturers/:id",
+      "handler": "keycap-manufacturers.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/keycap-manufacturers",
+      "handler": "keycap-manufacturers.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/keycap-manufacturers/:id",
+      "handler": "keycap-manufacturers.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/keycap-manufacturers/:id",
+      "handler": "keycap-manufacturers.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
