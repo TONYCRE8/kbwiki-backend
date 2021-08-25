@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "switches",
   "info": {
-    "name": "switches"
+    "name": "switches",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -12,6 +13,47 @@
   "pluginOptions": {},
   "attributes": {
     "name": {
+      "type": "string"
+    },
+    "type": {
+      "model": "swich-types",
+      "via": "switches"
+    },
+    "manufacturer": {
+      "model": "switch-manufacturers",
+      "via": "switches"
+    },
+    "thumb": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "actuation": {
+      "type": "float"
+    },
+    "bottom_out": {
+      "type": "float"
+    },
+    "pre_travel": {
+      "type": "float"
+    },
+    "pre_travel_tolerance": {
+      "type": "float"
+    },
+    "total_travel": {
+      "type": "float"
+    },
+    "total_travel_tolerance": {
+      "type": "float"
+    },
+    "designer": {
       "type": "string"
     }
   }
