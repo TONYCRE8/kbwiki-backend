@@ -42,6 +42,14 @@
     },
     "slug": {
       "type": "string"
+    },
+    "status": {
+      "model": "status",
+      "via": "keycaps"
+    },
+    "profile": {
+      "model": "keycap-profiles",
+      "via": "keycaps"
     }
   }
 }
