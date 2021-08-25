@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "keycap_statuses",
+  "collectionName": "statuses",
   "info": {
-    "name": "keycap_status"
+    "name": "status"
   },
   "options": {
     "increments": true,
