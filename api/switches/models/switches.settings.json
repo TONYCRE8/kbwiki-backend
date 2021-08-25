@@ -55,6 +55,21 @@
     },
     "designer": {
       "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "material_stem": {
+      "type": "string"
+    },
+    "material_top": {
+      "type": "string"
+    },
+    "material_bottom": {
+      "type": "string"
+    },
+    "spring": {
+      "type": "string"
     }
   }
 }
