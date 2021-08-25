@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "keycap_profiles",
+  "info": {
+    "name": "keycap_profiles"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}
