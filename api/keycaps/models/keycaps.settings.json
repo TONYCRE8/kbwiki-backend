@@ -50,6 +50,9 @@
     "profile": {
       "model": "keycap-profiles",
       "via": "keycaps"
+    },
+    "kits": {
+      "type": "text"
     }
   }
 }
