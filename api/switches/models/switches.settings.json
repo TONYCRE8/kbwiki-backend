@@ -16,8 +16,8 @@
       "type": "string"
     },
     "type": {
-      "model": "swich-types",
-      "via": "switches"
+      "via": "switches",
+      "model": "switch-types"
     },
     "manufacturer": {
       "model": "switch-manufacturers",
@@ -70,6 +70,10 @@
     },
     "spring": {
       "type": "string"
+    },
+    "actuation_range": {
+      "model": "switch-actuation-ranges",
+      "via": "switches"
     }
   }
 }

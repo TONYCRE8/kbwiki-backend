@@ -1,8 +1,9 @@
 {
   "kind": "collectionType",
-  "collectionName": "swich_types",
+  "collectionName": "switch_types",
   "info": {
-    "name": "swich_types"
+    "name": "switch_types",
+    "description": ""
   },
   "options": {
     "increments": true,

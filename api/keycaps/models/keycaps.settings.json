@@ -53,6 +53,11 @@
     },
     "kits": {
       "type": "text"
+    },
+    "colors": {
+      "via": "keycaps",
+      "collection": "keycap-colors",
+      "dominant": true
     }
   }
 }

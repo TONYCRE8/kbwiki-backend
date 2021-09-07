@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/swich-types",
-      "handler": "swich-types.find",
+      "path": "/keycap-colors",
+      "handler": "keycap-colors.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/swich-types/count",
-      "handler": "swich-types.count",
+      "path": "/keycap-colors/count",
+      "handler": "keycap-colors.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/swich-types/:id",
-      "handler": "swich-types.findOne",
+      "path": "/keycap-colors/:id",
+      "handler": "keycap-colors.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/swich-types",
-      "handler": "swich-types.create",
+      "path": "/keycap-colors",
+      "handler": "keycap-colors.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/swich-types/:id",
-      "handler": "swich-types.update",
+      "path": "/keycap-colors/:id",
+      "handler": "keycap-colors.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/swich-types/:id",
-      "handler": "swich-types.delete",
+      "path": "/keycap-colors/:id",
+      "handler": "keycap-colors.delete",
       "config": {
         "policies": []
       }

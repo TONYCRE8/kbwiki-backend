@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/switch-types",
+      "handler": "switch-types.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/switch-types/count",
+      "handler": "switch-types.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/switch-types/:id",
+      "handler": "switch-types.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/switch-types",
+      "handler": "switch-types.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/switch-types/:id",
+      "handler": "switch-types.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/switch-types/:id",
+      "handler": "switch-types.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

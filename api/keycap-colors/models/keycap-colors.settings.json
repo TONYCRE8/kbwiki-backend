@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "switch_actuation_ranges",
+  "collectionName": "keycap_colors",
   "info": {
-    "name": "switch_actuation_ranges",
+    "name": "keycap_colors",
     "description": ""
   },
   "options": {
@@ -12,12 +12,18 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "name": {
+    "color": {
       "type": "string"
     },
-    "switches": {
-      "via": "actuation_range",
-      "collection": "switches"
+    "keycaps": {
+      "via": "colors",
+      "collection": "keycaps"
+    },
+    "hex": {
+      "type": "string"
+    },
+    "pantones": {
+      "type": "string"
     }
   }
 }
