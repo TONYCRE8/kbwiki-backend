@@ -15,15 +15,15 @@
     "color": {
       "type": "string"
     },
-    "keycaps": {
-      "via": "colors",
-      "collection": "keycaps"
-    },
     "hex": {
       "type": "string"
     },
     "pantones": {
       "type": "string"
+    },
+    "keycaps": {
+      "via": "filter_colors",
+      "collection": "keycaps"
     }
   }
 }

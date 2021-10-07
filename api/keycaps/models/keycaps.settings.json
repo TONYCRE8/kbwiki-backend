@@ -54,10 +54,14 @@
     "kits": {
       "type": "text"
     },
-    "colors": {
-      "via": "keycaps",
+    "filter_colors": {
       "collection": "keycap-colors",
+      "via": "keycaps",
       "dominant": true
+    },
+    "colors": {
+      "type": "string",
+      "unique": false
     }
   }
 }
