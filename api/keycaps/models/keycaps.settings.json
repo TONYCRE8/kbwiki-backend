@@ -60,7 +60,7 @@
       "dominant": true
     },
     "colors": {
-      "type": "string",
+      "type": "text",
       "unique": false
     }
   }
