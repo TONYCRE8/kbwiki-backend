@@ -11,6 +11,7 @@
   },
   "devDependencies": {},
   "dependencies": {
+    "axios": "^0.24.0",
     "nearest-color": "^0.4.4",
     "slugify": "^1.6.0",
     "strapi": "3.6.8",
@@ -20,6 +21,7 @@
     "strapi-plugin-content-type-builder": "3.6.8",
     "strapi-plugin-email": "3.6.8",
     "strapi-plugin-i18n": "3.6.8",
+    "strapi-plugin-import-export-content": "^0.4.2",
     "strapi-plugin-upload": "3.6.8",
     "strapi-plugin-users-permissions": "3.6.8",
     "strapi-utils": "3.6.8"
