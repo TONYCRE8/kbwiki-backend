@@ -10,6 +10,7 @@
     "strapi": "strapi"
   },
   "dependencies": {
+    "axios": "^0.27.2",
     "nearest-color": "^0.4.4",
     "slugify": "^1.6.0",
     "strapi": "3.6.8",
