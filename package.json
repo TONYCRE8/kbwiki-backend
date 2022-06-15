@@ -2,16 +2,14 @@
   "name": "kbwiki-backend",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "description": "The backend of KB Wiki",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
     "strapi": "strapi"
   },
-  "devDependencies": {},
   "dependencies": {
-    "axios": "^0.24.0",
     "nearest-color": "^0.4.4",
     "slugify": "^1.6.0",
     "strapi": "3.6.8",
