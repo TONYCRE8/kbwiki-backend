@@ -11,7 +11,9 @@
   },
   "dependencies": {
     "axios": "^0.27.2",
+    "i": "^0.3.7",
     "nearest-color": "^0.4.4",
+    "npm": "^8.13.2",
     "slugify": "^1.6.0",
     "strapi": "3.6.8",
     "strapi-admin": "3.6.8",
@@ -24,6 +26,7 @@
     "strapi-plugin-import-export-content": "^0.4.2",
     "strapi-plugin-upload": "3.6.8",
     "strapi-plugin-users-permissions": "3.6.8",
+    "strapi-provider-upload-cloudinary": "^3.6.8",
     "strapi-utils": "3.6.8"
   },
   "author": {
